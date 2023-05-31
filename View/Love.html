@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="login-page">
+		<div class="form">
+			<form class="login-form">
+				<input type="text" placeholder="usuario"/>
+				<input type="password" placeholder="contraseña"/>
+				<button>ingresar</button>
+				<p class="message">¿No tienes una cuenta? <a href="#">Regístrate</a></p>
+			</form>
+		</div>
+	</div>
+    
+Te veo jaja 😍
+jajajaj yo tambien 
+estoy comiendo el chocolate que me diste ayer , vos que tal ? como vas?
+Que dice la frase?
+Me gusto regalarte, me gusta verte feliz 
+dice de un rosal corte una rosa, de una magnolia una flor, para completar el ramo solo me falta tu amor
+TENDRE TU AMOR? ☺️
+no lo se, el tiempo lo dira jajaj
+que lindo que te guste verme feliz, sos muy linda persona 
+Y ME SIENTO FELIZ ESTANDO CON VOS ☺️😍
+eso es bueno ?
+Espero que vos también
+
+creo que se nota o no? 🤭
+Jaja un poquito mucho 
+jajajaj vos no estas tan feliz?
+No se nota ? Jaja 
+un poquito jajaj
+bueno me voy al trabajo. te mando muchos besitos 🙂
+Bueno dale cuando puedas y pienses en mi hablame, porque me gusta hablar con vos espero 
+no ser cargoso jaja
+Recién pude abrir el otro archivo jaja te contesté 
+No sos cargoso Jajaj
+Estoy esperando a que salgan del cole los chicos 
+
+🤭
+Qué haces? Qué tal va tu día?
+Algún día me tenés que esperar a mi salir del trabajo jaja.
+Acá sigo desinfectando computadoras, por ahora agitado jajaj
+Jajajjaja si no hay drama 🤣
+Uuuhhh bueno mejor así se te pasa más rápido la hora Jajaj
+Yo también tuve un día agitado abrí el local y me llego coca cola y mercadería y gente 🤣🤣 decí que después llego mi jefe a ayudarme porque mis compañeros se duermen y llegan tarde jajaja
+Listo te tomo la palabra, algún día te quiero en mi trabajo jaja 
+Jajaja  bueno 😜 
+Pinches dormilones jaja 
+Sii mal
+Prometo no llegar tarde a nuestras citas jaja
+Más te vale Jajajja 😘
+Jaja con las ansias de verte no creo jaja una hora antes jaja
+Jajajaj 🤭
+Quedó linda la página html jajaja 
+Cuál?
+Está que estás escribiendo jajaja voy levantar con visual code a ver cómo queda jaja
+jajajaj enserio?
+mostrame despues 😅
+Jajaja dale pongo la imagen acá 
+dale
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="script.js"></script>
+
+</body>
+<style>
+    body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+label {
+  margin-top: 10px;
+}
+
+input {
+  margin-top: 5px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#error-message {
+  margin-top: 20px;
+  color: red;
+  font-size: 14px;
+}
+
+</style>
+<script>
+    const form = document.getElementById("login-form");
+const username = document.getElementById("username");
+const password = document.getElementById("password");
+const errorMessage = document.getElementById("error-message");
+
+form.addEventListener("submit", (event) => {
+  event.preventDefault();
+  
+  if (username.value === "" || password.value === "") {
+    errorMessage.innerHTML = "Por favor, ingrese su nombre de usuario y contraseña.";
+    return;
+  }
+  
+  // Aquí puedes realizar una solicitud AJAX para verificar el inicio de sesión del usuario.
+  // Si el inicio de sesión es exitoso, redirige al usuario a la página de inicio.
+  // Si el inicio de sesión falla, muestra un mensaje de error.
+  
+  if (username.value === "usuario" && password.value === "contraseña") {
+    
+alert("si queres podemos usar la misma cuenta: fullstackprogramacion@gmail.com");
+alert("password: ifswitch0705");
+    window.location.href = "inicio.html";
+  } else {
+    errorMessage.innerHTML = "Nombre de usuario o contraseña incorrectos. Por favor, inténtelo de nuevo.";
+  }
+});
+
+Alert("¿Holaa me encontraste?");
+
+
+
+alert("te encontré ");
+alerta("Estás? Estás en mis pensamientos 💗") 
+
+Alert("será que sos el ( ; ) que le faltaba a mi código?");
+Alert("jaja muy lindo, extraño tus besos 😍");
+
+
+</script>
+</html>
